@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "allowJs": true,
+        "target": "es6",
+        "outDir": "build",
+        "strict": true,
+        // Don't emit; allow Babel to transform files.
+        "noEmit": true,
+        // Import non-ES modules as default imports.
+        "esModuleInterop": true
+    },
+    "include": [
+        "lib/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

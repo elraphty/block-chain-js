@@ -1,0 +1,33 @@
+{
+  "name": "block-chain-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test",
+    "start": "tsc --watch",
+    "babel": "babel --presets es2016 lib/blockchain.ts -o build/blockchain.js"
+  },
+  "author": "Raphael Osaze Eyerin",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sha256": "^0.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^12.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "jest": "^24.8.0"
+  }
+}
